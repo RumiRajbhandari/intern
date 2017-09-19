@@ -1,0 +1,92 @@
+/opt/lampp/lampp start
+/etc/init.d/mysqld start
+/opt/android-studio/bin/studio.sh 
+
+
+ls -l Documents/*.pdf
+curl 'http://google.com'
+curl -L 'http://google.com'
+curl -o google.html -L 'http://google.com'
+cat dictionary.html
+less dictionary.html(/ to search)
+
+rm(remove)
+grep shell dictionary.txt
+grep shell dictionary.txt | less
+curl -L 
+ curl -L 'https://tinyurl.com/zeyq9vc' | grep fish
+alias ll='ls -la'
+vim .bashrc
+source .bashrc
+
+
+man pages- manual pages 
+eg man ping
+
+tasksel
+
+sudo apt-get install apache2
+sudo apt-get remove apache2
+sudo /etc/init.d/apache2 start(restart,stop)
+
+top: how much of your memory,processor,cpu usage is being used
+top~task manager
+to stop process: k (processid)
+
+sudo tasksel: to install all the server necessary for web(Eg:lamp, ssh)
+
+sudo adduser (username)
+sudo userdel (username)
+/etc/passwd} user ko details are stored here.
+sudo passwd (username) : to change user password 
+
+sudo groupadd (groupname)
+sudo groupdel (groupname
+
+adding user to a group
+sudo adduser ram groupname
+sudo deluser ram groupname
+
+sudo vim /etc/group 
+group ko details are stored
+
+777
+Persmission the owner of the file has
+Group's member
+Everybody else in the world
+
+757
+700
+
+4: read
+2: write
+1: execute
+5:4+1=read and execute
+
+sudo chmod 777 file -R
+sudo chown -R user file
+sudo chgrp -R group file
+
+Vim for file editing
+:/*MAX*     searches down
+:/? 	    searches up the file
+n 	    next search
+:e file	    open next file
+:q! 	    forcely shut down
+:w file	    save as
+
+
+ssh
+ sudo ufw status (should be inactive)
+sudo ufw disable
+
+ kill $(pgrep chromium-browse) 
+
+how java works:
+1.Source code
+2.Compiler
+3.Byte code
+4.JVM(Java Virtual Machine)
+
+Compiler converts source code into byte code. JVM run the byte code.
+

@@ -1,0 +1,14 @@
+git remote
+git remote -v
+git remote rename mine origin
+git pull will merge the local with remote
+but git fetch will not merge the changes
+
+Fork:Making identical copy and become owner of the copy.
+git diff
+git shortlog: to see how may commit each user has made
+git shortlog -s -n: -s show the total no of commit rather than the msg and 	-n lists it alphabetically
+git log --author=Surma
+git show (commit no) : shows the additional commit message
+ git log --grep=bug : to filter the commit
+
